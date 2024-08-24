@@ -1,0 +1,233 @@
+Czas ładowania (Load Time): 767 ms
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 17 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 0 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 16 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 0 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 272 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 0 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 16 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 16 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 148 ms
+Draw Calls: 94
+Total Frame Time: 1.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 1860 ms
+Draw Calls: 94
+Total Frame Time: 1.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 1860 ms
+Draw Calls: 94
+Total Frame Time: 1.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 16 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 16 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 0 ms
+Draw Calls: 94
+Total Frame Time: 2.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 0 ms
+Draw Calls: 94
+Total Frame Time: 2.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 16 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 17 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 141 ms
+Draw Calls: 94
+Total Frame Time: 1.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 17 ms
+Draw Calls: 94
+Total Frame Time: 2.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 17 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 0 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 16 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 0 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 17 ms
+Draw Calls: 94
+Total Frame Time: 1.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 0 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 16 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 14 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 0 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
+FPS: undefined
+GPU Frame Time (Stats-GL): 0 ms
+CPU Frame Time (Stats-GL): 16 ms
+Draw Calls: 94
+Total Frame Time: 0.00 ms
+Triangles: 0
+Geometries: 0
+
