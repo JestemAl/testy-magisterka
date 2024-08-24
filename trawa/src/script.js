@@ -42,7 +42,7 @@ const textureLoader = new THREE.TextureLoader()
 /**
  * Textures
  */
-const environmentMap = textureLoader.load('/textures/background3.png')
+const environmentMap = textureLoader.load('/textures/background3.webp')
 environmentMap.colorSpace = THREE.SRGBColorSpace
 scene.background = environmentMap
 
@@ -209,57 +209,48 @@ window.totalDrawCalls = 0;
 // stats.showPanel(0);
 
 const stats = new Stats({
-    logsPerSecond: 20, 
-    samplesLog: 1, 
-    precision: 2
+    // logsPerSecond: 20, 
+    samplesLog: 100, 
+    precision: 2,
+    mode: 1
 });
 document.body.appendChild(stats.dom);
 stats.init( renderer );
 
-window.initialRenderInfo = {
-    triangles: renderer.info.render.triangles,
-    geometries: renderer.info.memory.geometries
-};
-console.log(`Initial Triangles: ${window.initialRenderInfo.triangles}`);
-console.log(`Initial Geometries: ${window.initialRenderInfo.geometries}`);
-
 /**
  * Animate
  */
+let lastFrameTime = performance.now();
+
 const clock = new THREE.Clock()
 
 const tick = () => {
-    const elapsedTime = clock.getElapsedTime();
-    window.frameCount++;
+    const now = performance.now();
+    const frameTime = now - lastFrameTime;  // Czas trwania obecnej klatki
+    lastFrameTime = now;
 
-    const frameStartTime = performance.now();
-
-    grassMaterial.uniforms.time.value = elapsedTime;
+    grassMaterial.uniforms.time.value = clock.getElapsedTime();
 
     const cpuStartTime = performance.now();
     renderer.render(scene, camera);
     const cpuEndTime = performance.now();
+    const cpuTime = cpuEndTime - cpuStartTime;
 
     stats.update();
 
-    const frameEndTime = performance.now();
-    const cpuTime = cpuEndTime - cpuStartTime;
-    window.totalCpuTime += cpuTime;
-
-    const frameTime = frameEndTime - frameStartTime;
-    window.totalFrameTime += frameTime;
+    // Obliczanie FPS jako odwrotność czasu klatki (w sekundach)
+    const fps = 1000 / frameTime;
 
     // Zbieranie danych w sposób globalny dla puppeteer
     window.statsData = {
-        fps: stats.averageFps, 
-        gpu: stats.averageGpu.logs[0],
-        cpu: stats.averageCpu.logs[0]
+        fps: fps,
+        gpu: stats.totalGpuDuration,
+        cpu: cpuTime
     };
 
     window.renderInfo = {
         drawCalls: renderer.info.render.calls,
-        totalFrameTime: frameTime.toFixed(2),
-        cpuFrameTime: cpuTime.toFixed(2)
+        totalFrameTime: frameTime,
     };
 
     requestAnimationFrame(tick);

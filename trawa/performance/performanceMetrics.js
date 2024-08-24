@@ -3,10 +3,10 @@ import fs from 'fs';
 import path from 'path';
 
 async function runPerformanceTest(url, testName) {
-  const browser = await puppeteer.launch({
-    headless: false,
-    executablePath: 'C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe'
-});
+    const browser = await puppeteer.launch({
+        headless: false,
+        executablePath: 'C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe'
+    });
     const page = await browser.newPage();
 
     await page.setViewport({ width: 1920, height: 1080 });
@@ -24,7 +24,7 @@ async function runPerformanceTest(url, testName) {
     const resultPath = path.join(resultsDir, `${testName}-performance-results.txt`);
     fs.writeFileSync(resultPath, `Czas ładowania (Load Time): ${loadTime} ms\n`);
 
-    const duration = 0.5 * 60 * 1000; // 2 minuty
+    const duration = 5 * 60 * 1000; // 2 minuty
     const interval = 1000; // 1 sekunda
     const warmUpTime = 15000; // 15 sekund
 
@@ -35,23 +35,19 @@ async function runPerformanceTest(url, testName) {
             const metrics = await page.evaluate(() => {
                 return {
                     fps: window.statsData.fps,
-                    avgCpuTime: window.statsData.cpu,
+                    avgCpuTime: window.statsData.cpu, // Zostawiamy tylko jedno obliczenie CPU Frame Time
                     avgGpuTime: window.statsData.gpu,
                     avgFrameTime: window.renderInfo.totalFrameTime,
                     drawCalls: window.renderInfo.drawCalls,
-                    triangles: window.initialRenderInfo.triangles,
-                    geometries: window.initialRenderInfo.geometries
                 };
             });
 
             if (metrics) {
                 const resultText = `FPS: ${metrics.fps}\n` +
-                                   `GPU Frame Time (Stats-GL): ${metrics.avgGpuTime} ms\n` +
-                                   `CPU Frame Time (Stats-GL): ${metrics.avgCpuTime} ms\n` +
+                                   `GPU Frame Time: ${metrics.avgGpuTime} ms\n` +
+                                   `CPU Frame Time: ${metrics.avgCpuTime} ms\n` +  // Tutaj usunięto duplikację
                                    `Draw Calls: ${metrics.drawCalls}\n` +
-                                   `Total Frame Time: ${metrics.avgFrameTime} ms\n` +
-                                   `Triangles: ${metrics.triangles}\n` +
-                                   `Geometries: ${metrics.geometries}\n\n`;
+                                   `Total Frame Time: ${metrics.avgFrameTime} ms\n\n`;
 
                 console.log('Appending results to file...');
                 fs.appendFileSync(resultPath, resultText);

@@ -1,0 +1,22 @@
+{
+  "name": "rendering-webgl",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test:performance": "node performance/performanceTest.cjs"
+  },
+  "devDependencies": {
+    "vite": "^5.3.3",
+    "vite-plugin-restart": "^0.4.1"
+  },
+  "dependencies": {
+    "lil-gui": "^0.19.2",
+    "puppeteer": "^22.15.0",
+    "three": "^0.166.1",
+    "three-custom-shader-material": "^5.4.0",
+    "vite-plugin-top-level-await": "^1.4.1"
+  }
+}
