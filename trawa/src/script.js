@@ -18,6 +18,13 @@ import Stats from "stats-gl";
  * Constants
  */
 const GRASS_COUNT = 8 * 512
+// const GRASS_COUNT = 16 * 512
+// const GRASS_COUNT = 32 * 512
+// const GRASS_COUNT = 64 * 512
+// const GRASS_COUNT = 128 * 512
+
+window.grassCount = GRASS_COUNT
+
 const GRASS_SEGMENTS = 4
 const GRASS_WIDTH = 0.25
 const GRASS_HEIGHT = 6
@@ -245,13 +252,16 @@ const tick = () => {
     window.statsData = {
         fps: fps,
         gpu: stats.totalGpuDuration,
-        cpu: cpuTime
+        cpu: cpuTime,
     };
 
     window.renderInfo = {
         drawCalls: renderer.info.render.calls,
         totalFrameTime: frameTime,
     };
+
+    console.log(statsData.modelCount);
+    
 
     requestAnimationFrame(tick);
 };
