@@ -21,10 +21,11 @@ async function runPerformanceTest(url, testName) {
         fs.mkdirSync(resultsDir, { recursive: true });
     }
 
+    const seedValue = await page.evaluate(() => window.seed);
     const resultPath = path.join(resultsDir, `${testName}-performance-results.txt`);
     fs.writeFileSync(resultPath, `Czas ładowania (Load Time): ${loadTime} ms\n`);
 
-    const duration = 5 * 60 * 1000; // 2 minuty
+    const duration = 5 * 60 * 1000; // 5 minut
     const interval = 1000; // 1 sekunda
     const warmUpTime = 10000; // 15 sekund
 
@@ -35,8 +36,9 @@ async function runPerformanceTest(url, testName) {
             const metrics = await page.evaluate(() => {
                 return {
                     fps: window.statsData.fps,
-                    avgCpuTime: window.statsData.cpu, // Zostawiamy tylko jedno obliczenie CPU Frame Time
+                    avgCpuTime: window.statsData.cpu, 
                     avgGpuTime: window.statsData.gpu,
+                    modelCount: window.statsData.modelCount,
                     avgFrameTime: window.renderInfo.totalFrameTime,
                     drawCalls: window.renderInfo.drawCalls,
                 };
@@ -45,7 +47,8 @@ async function runPerformanceTest(url, testName) {
             if (metrics) {
                 const resultText = `FPS: ${metrics.fps}\n` +
                                    `GPU Frame Time: ${metrics.avgGpuTime} ms\n` +
-                                   `CPU Frame Time: ${metrics.avgCpuTime} ms\n` +  // Tutaj usunięto duplikację
+                                   `CPU Frame Time: ${metrics.avgCpuTime} ms\n` +
+                                   `Model Count: ${metrics.modelCount}\n` +
                                    `Draw Calls: ${metrics.drawCalls}\n` +
                                    `Total Frame Time: ${metrics.avgFrameTime} ms\n\n`;
 
@@ -73,7 +76,7 @@ async function runPerformanceTest(url, testName) {
 
 async function main() {
     const url = 'http://localhost:5173/';
-    const testName = 'trawa-1';
+    const testName = 'rendering-seed-${seedValue}';
 
     console.log(`Running ${testName} performance test...`);
     await runPerformanceTest(url, testName);

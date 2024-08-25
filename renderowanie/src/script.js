@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-
+import Stats from 'stats-gl';
 
 /**
  * Data
@@ -18,7 +18,12 @@ const increaseInterval = 5000; // Time interval in milliseconds between incremen
 /**
  * Seeded Random Function
  */
-let seed = 123456; // You can change this seed value for different test runs
+let seed = 10 
+// let seed = 169 
+// let seed = 4444 
+// let seed = 77777
+// let seed = 123456;
+window.seedNumber = seed;
 const random = seededRandom(seed);
 
 function seededRandom(seed) {
@@ -73,6 +78,10 @@ const modelData = [
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0.9, 0.5, 0.2);
 
+// canvas
+const canvas = document.querySelector('canvas.webgl')
+
+
 /**
  * Loaders
  */
@@ -87,12 +96,9 @@ const cachedTextures = {};
 /**
  * Hdr texture
  */
-// const environmentMap = textureLoader.load('/textures/sky.jpg')
-const environmentMap = textureLoader.load('/textures/background3.png')
-environmentMap.colorSpace = THREE.SRGBColorSpace
-scene.background = environmentMap
-
-
+const environmentMap = textureLoader.load('/textures/background3.png');
+environmentMap.colorSpace = THREE.SRGBColorSpace;
+scene.background = environmentMap;
 
 /**
  * Preload Textures
@@ -104,7 +110,7 @@ const preloadTextures = (modelData, callback) => {
       data.texture,
       (texture) => {
         texture.flipY = false;
-        texture.colorSpace = THREE.SRGBColorSpace
+        texture.colorSpace = THREE.SRGBColorSpace;
         cachedTextures[data.texture] = texture;
         loadedTextures++;
         if (loadedTextures === modelData.length) {
@@ -141,7 +147,7 @@ function loadInitialModels() {
  * Scene
  */
 const surfaceTexture = textureLoader.load('/textures/surface7.jpg');
-surfaceTexture.colorSpace = THREE.SRGBColorSpace
+surfaceTexture.colorSpace = THREE.SRGBColorSpace;
 const material = new THREE.MeshBasicMaterial({ map: surfaceTexture });
 
 const plane = new THREE.Mesh(
@@ -161,14 +167,6 @@ const directionalLight = new THREE.DirectionalLight('#ffffff', 2);
 directionalLight.position.set(6.25, 3, 4);
 scene.add(directionalLight);
 
-// Renderer
-const renderer = new THREE.WebGLRenderer({ antialias: true });
-renderer.setPixelRatio(window.devicePixelRatio);
-renderer.setSize(window.innerWidth, window.innerHeight);
-renderer.setAnimationLoop(animate);
-renderer.toneMapping = THREE.ACESFilmicToneMapping;
-document.body.appendChild(renderer.domElement);
-
 /**
  * Sizes
  */
@@ -177,6 +175,17 @@ const sizes = {
   height: window.innerHeight,
   pixelRatio: Math.min(window.devicePixelRatio, 2),
 };
+
+// Renderer
+const renderer = new THREE.WebGLRenderer({
+  canvas: canvas,
+  antialias: true
+})
+renderer.setPixelRatio(sizes.pixelRatio);
+renderer.setSize(sizes.width, sizes.height);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+// document.body.appendChild(renderer.domElement);
+
 
 window.addEventListener('resize', () => {
   sizes.width = window.innerWidth;
@@ -193,7 +202,7 @@ window.addEventListener('resize', () => {
 /**
  * Camera
  */
-const camera = new THREE.PerspectiveCamera(30, window.innerWidth / window.innerHeight, 0.25, 100);
+const camera = new THREE.PerspectiveCamera(30, sizes.width / sizes.height, 0.25, 100);
 camera.position.set(0, 1.5, 10); // Start the camera at a positive Z value
 scene.add(camera);
 
@@ -279,28 +288,35 @@ function addOrRemoveInstance(initial = false) {
       instances.splice(i, 1);
       dynamicInstances--;
       returnObjectToPool(instance);
-      console.log(`Removed and pooled instance, dynamicInstances: ${dynamicInstances}`);
+      // console.log(`Removed and pooled instance, dynamicInstances: ${dynamicInstances}`);
     }
   }
 }
 
-let lastFrameTime = performance.now();
-let frameCount = 0;
+
+// Initialize stats-gl
+const stats = new Stats({
+  samplesLog: 100, 
+  precision: 2,
+  mode: 2
+});
+document.body.appendChild(stats.dom);
+stats.init(renderer);
+
+
 let fps = 0;
+window.frameCount = 0;
+window.totalCpuTime = 0;
+window.totalDrawCalls = 0;
+window.totalFrameTime = 0;
+window.modelCount = 0;
 
-const customStats = document.createElement('div');
-customStats.style.position = 'absolute';
-customStats.style.top = '0';
-customStats.style.left = '0px';
-customStats.style.color = 'white';
-customStats.style.padding = '5px';
-customStats.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
-customStats.id = 'customStats';
-document.body.appendChild(customStats);
+let lastFrameTime = performance.now();
 
-function animate() {
-  const currentFrameTime = performance.now();
-  frameCount++;
+const tick = () => {
+  const now = performance.now()
+  const frameTime = now - lastFrameTime
+  lastFrameTime = now
 
   // Move the camera forward
   moveCamera();
@@ -308,34 +324,50 @@ function animate() {
   // Procedurally add or remove instances based on camera position
   addOrRemoveInstance();
 
+  // stats.begin()
+  const cpuStartTime = performance.now();
   renderer.render(scene, camera);
+  const cpuEndTime = performance.now();
+  const cpuTime = cpuEndTime - cpuStartTime;
+  // stats.end()
 
-  // Calculate FPS every second
-  if (currentFrameTime - lastFrameTime >= 1000) {
-    fps = frameCount;
-    frameCount = 0;
-    lastFrameTime = currentFrameTime;
-  }
+  stats.update()
+  
+  fps = 1000 / frameTime;
+  modelCount = dynamicInstances;
+
 
   // Increase instancesPerFrame if FPS is above the threshold
-  if (fps > fpsThreshold && instancesPerFrame < maxInstancesPerFrame && currentFrameTime - lastIncreaseTime > increaseInterval) {
+  if (fps > fpsThreshold && instancesPerFrame < maxInstancesPerFrame && now - lastIncreaseTime > increaseInterval) {
     instancesPerFrame += 1;
-    lastIncreaseTime = currentFrameTime;
+    lastIncreaseTime = now;
   }
 
-  // Update stats less frequently
-  if (frameCount % 10 === 0) { 
-    customStats.innerText = `Number of models: ${dynamicInstances}\nFPS: ${fps}`;
-  }
-}
+  window.statsData = {
+    fps: fps,
+    gpu: stats.totalGpuDuration,
+    cpu: cpuTime,
+    modelCount: modelCount
+  };
 
-document.addEventListener('visibilitychange', function () {
-  if (document.hidden) {
-    renderer.setAnimationLoop(null);
-  } else {
-    renderer.setAnimationLoop(animate);
-  }
-});
+  window.renderInfo = {
+      drawCalls: renderer.info.render.calls,
+      totalFrameTime: frameTime,
+  };
+
+  // console.log(statsData.gpu);
+  
+  requestAnimationFrame(tick);
+};
+
+tick();
+// document.addEventListener('visibilitychange', function () {
+//   if (document.hidden) {
+//     renderer.setAnimationLoop(null);
+//   } else {
+//     renderer.setAnimationLoop(animate);
+//   }
+// });
 
 /**
  * Preload all textures and then load the models
