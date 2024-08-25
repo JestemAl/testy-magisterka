@@ -301,7 +301,7 @@ function addOrRemoveInstance(initial = false) {
 const stats = new Stats({
   samplesLog: 100, 
   precision: 2,
-  mode: 2
+  mode: 1
 });
 document.body.appendChild(stats.dom);
 stats.init(renderer);
@@ -317,6 +317,7 @@ window.modelCount = 0;
 let lastFrameTime = performance.now();
 
 const tick = () => {
+  performance.mark('cpu-started');
   const now = performance.now()
   const frameTime = now - lastFrameTime
   lastFrameTime = now
@@ -326,12 +327,8 @@ const tick = () => {
 
   // Procedurally add or remove instances based on camera position
   addOrRemoveInstance();
-
   // stats.begin()
-  const cpuStartTime = performance.now();
   renderer.render(scene, camera);
-  const cpuEndTime = performance.now();
-  const cpuTime = cpuEndTime - cpuStartTime;
   // stats.end()
 
   stats.update()
@@ -346,10 +343,16 @@ const tick = () => {
     lastIncreaseTime = now;
   }
 
+
+  performance.mark('cpu-ended');
+  performance.measure('cpu-duration', 'cpu-started', 'cpu-ended');
+
+  const measure = performance.getEntriesByName('cpu-duration').pop();
+
   window.statsData = {
     fps: fps,
     gpu: stats.totalGpuDuration,
-    cpu: cpuTime,
+    cpu: measure.duration,
     modelCount: modelCount
   };
 
@@ -358,7 +361,8 @@ const tick = () => {
       totalFrameTime: frameTime,
   };
 
-  // console.log(statsData.gpu);
+  // console.log(`Duration of cpu-duration: ${measure.duration} ms`);
+  
   
   requestAnimationFrame(tick);
 };

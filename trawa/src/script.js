@@ -232,27 +232,30 @@ let lastFrameTime = performance.now();
 const clock = new THREE.Clock()
 
 const tick = () => {
+    performance.mark('cpu-started');
     const now = performance.now();
     const frameTime = now - lastFrameTime;  // Czas trwania obecnej klatki
     lastFrameTime = now;
 
     grassMaterial.uniforms.time.value = clock.getElapsedTime();
 
-    const cpuStartTime = performance.now();
     renderer.render(scene, camera);
-    const cpuEndTime = performance.now();
-    const cpuTime = cpuEndTime - cpuStartTime;
 
     stats.update();
 
     // Obliczanie FPS jako odwrotność czasu klatki (w sekundach)
     const fps = 1000 / frameTime;
 
+    performance.mark('cpu-ended');
+    performance.measure('cpu-duration', 'cpu-started', 'cpu-ended');
+  
+    const measure = performance.getEntriesByName('cpu-duration').pop();
+
     // Zbieranie danych w sposób globalny dla puppeteer
     window.statsData = {
         fps: fps,
         gpu: stats.totalGpuDuration,
-        cpu: cpuTime,
+        cpu: measure.duration,
     };
 
     window.renderInfo = {
