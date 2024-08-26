@@ -17,11 +17,11 @@ import Stats from "stats-gl";
 /**
  * Constants
  */
-const GRASS_COUNT = 8 * 512
+// const GRASS_COUNT = 8 * 512
 // const GRASS_COUNT = 16 * 512
 // const GRASS_COUNT = 32 * 512
 // const GRASS_COUNT = 64 * 512
-// const GRASS_COUNT = 128 * 512
+const GRASS_COUNT = 128 * 512
 
 window.grassCount = GRASS_COUNT
 

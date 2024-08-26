@@ -18,11 +18,11 @@ const increaseInterval = 5000; // Time interval in milliseconds between incremen
 /**
  * Seeded Random Function
  */
-const seed = 10 
+// const seed = 10 
 // const seed = 169 
 // const seed = 4444 
 // const seed = 77777
-// const seed = 123456;
+const seed = 123456;
 
 
 window.seedNumber = seed;

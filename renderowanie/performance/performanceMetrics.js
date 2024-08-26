@@ -39,6 +39,8 @@ async function runPerformanceTest(url, testName) {
                     avgGpuTime: window.statsData.gpu,
                     avgFrameTime: window.renderInfo.totalFrameTime,
                     drawCalls: window.renderInfo.drawCalls,
+                    modelCount: window.statsData.modelCount // Dodanie liczby modeli
+
                 };
             });
 
@@ -47,7 +49,9 @@ async function runPerformanceTest(url, testName) {
                                    `GPU Frame Time: ${metrics.avgGpuTime} ms\n` +
                                    `CPU Frame Time: ${metrics.avgCpuTime} ms\n` +
                                    `Draw Calls: ${metrics.drawCalls}\n` +
-                                   `Total Frame Time: ${metrics.avgFrameTime} ms\n\n`;
+                                   `Total Frame Time: ${metrics.avgFrameTime} ms\n` +
+                                   `Model Count: ${metrics.modelCount}\n\n`; // Dodanie do wyników
+                                   ;
 
                 console.log('Appending results to file...');
                 fs.appendFileSync(resultPath, resultText);
