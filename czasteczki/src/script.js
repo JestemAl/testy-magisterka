@@ -63,7 +63,7 @@ window.addEventListener('resize', () =>
  */
 // Base camera
 const camera = new THREE.PerspectiveCamera(35, sizes.width / sizes.height, 0.1, 100)
-camera.position.set(4.5, 4, 11)
+camera.position.set(0, 4, 15)
 scene.add(camera)
 
 // Controls
@@ -90,7 +90,7 @@ renderer.setClearColor(debugObject.clearColor)
  * Load model
  */
 // const model = await gltfLoader.loadAsync('./model.glb')
-const loadedModel = await gltfLoader.loadAsync('./scene-compressed.glb')
+const loadedModel = await gltfLoader.loadAsync('./full-scene-compressed2.glb')
 // const model = await gltfLoader.loadAsync('./scene2.glb')
 // console.log(loadedModel.scene.children[0].geometry.count);
 
@@ -112,7 +112,7 @@ console.log(model.geometry);
 const gpgpu = {}
 gpgpu.size = Math.ceil(Math.sqrt(model.count)) // rozmiar fbo tekstury
 gpgpu.computation = new GPUComputationRenderer(gpgpu.size, gpgpu.size, renderer)
-console.log(gpgpu.size);
+console.log(model.count * 5);
 
 
 // particels
@@ -187,7 +187,8 @@ particles.material = new THREE.ShaderMaterial({
     uniforms:
     {
         uParticleTexture: new THREE.Uniform(),
-        uSize: new THREE.Uniform(0.05),
+        uSize: new THREE.Uniform(0.08),
+        uStrength: new THREE.Uniform(Math.random()),
         uResolution: new THREE.Uniform(new THREE.Vector2(sizes.width * sizes.pixelRatio, sizes.height * sizes.pixelRatio))
     }
 })
@@ -195,6 +196,32 @@ particles.material = new THREE.ShaderMaterial({
 // Points
 particles.points = new THREE.Points(particles.geometry, particles.material)
 scene.add(particles.points)
+
+/**
+ * Function to create and add model instances to the scene
+ */
+function addModelInstance(position, rotation, scale) {
+    const modelInstance = new THREE.Points(particles.geometry, particles.material);
+
+    // Apply transformations
+    if (position) modelInstance.position.set(position.x, position.y, position.z);
+    if (rotation) modelInstance.rotation.set(rotation.x, rotation.y, rotation.z);
+    if (scale) modelInstance.scale.set(scale.x, scale.y, scale.z);
+
+    scene.add(modelInstance);
+}
+
+// Add multiple instances with different transformations
+// addModelInstance(new THREE.Vector3(0, 0, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(-30, 0, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 0, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 0, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 0, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 0, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 0, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+
+
+// console.log(gpgpu.size);
 
 /**
  * Tweaks
@@ -248,10 +275,7 @@ const animate = () =>
     // Render normal scene
     renderer.render(scene, camera);
 
-    const cpuEndTime = performance.now();
-    const cpuTime = cpuEndTime - cpuStartTime;    
-
-    console.log(stats);
+    // console.log(stats);
     
     stats.update()
 

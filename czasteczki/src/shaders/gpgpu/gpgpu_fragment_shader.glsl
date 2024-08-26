@@ -2,6 +2,7 @@
 
 uniform float uTime;
 uniform float uDeltaTime;
+uniform float uStrength;
 uniform sampler2D uInitial;
 
 void main()
