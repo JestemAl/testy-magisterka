@@ -3,20 +3,28 @@ import pandas as pd
 
 # Function to generate LaTeX table code from a dataframe
 def generate_latex_table(df, caption, label):
-    latex_code = "\\begin{table}[H]\n\\centering\n\\begin{tabular}{|l" + " |c" * (len(df.columns) - 1) + "|}\n"
+    # Round all numerical data to 2 decimal places
+    df = df.round(2)
+    
+    # Begin the LaTeX table environment with adjustbox
+    latex_code = "\\begin{adjustbox}{max width=\\textwidth}\n\\begin{tabular}{|>{\\centering\\arraybackslash}m{3cm}|m{1.5cm}<{\centering}|m{1.5cm}<{\centering}|m{1.5cm}<{\centering}|m{1.5cm}<{\centering}|m{1.5cm}<{\centering}|m{2.5cm}<{\centering}|m{3cm}<{\centering}|}\n"
     latex_code += "\\hline\n"
     
-    # Add the header row
-    headers = " & ".join(df.columns)
-    latex_code += headers + " \\\\\n\\hline\n"
+    # Add the multi-row and multi-column header
+    latex_code += "\\multirow{3}{*}{{\\centering \\shortstack{Przedział\\\\liczby modeli}}} & \\multicolumn{5}{c|}{\\centering Średnie zużycie CPU dla różnych ziaren} & \\multirow{3}{*}{\\centering Średnia} & \\multirow{3}{*}{\\centering \\shortstack{Odchylenie\\\\ standardowe}} \\\\\n\\cline{2-6}\n"
+    latex_code += " & \\multicolumn{5}{c|}{\\centering \\textit{Ziarna:}} & & \\\\\n\\cline{2-6}\n"
+    
+    # Extract column names for the Ziarna values
+    ziarna_columns = df.columns[:-2]  # Assuming the last two columns are 'Mean' and 'Std Dev'
+    latex_code += " & " + " & ".join(ziarna_columns) + " & & \\\\\n\\hline\n"
     
     # Add the data rows
     for index, row in df.iterrows():
         row_data = " & ".join(row.astype(str))
-        latex_code += row_data + " \\\\\n"
+        latex_code += row_data + " \\\\\n\\hline\n"
     
     # End the table environment
-    latex_code += "\\hline\n\\end{tabular}\n"
+    latex_code += "\\end{tabular}\n\\end{adjustbox}\n"
     latex_code += f"\\caption{{{caption}}}\n"
     latex_code += f"\\label{{{label}}}\n"
     latex_code += "\\end{table}\n"
