@@ -1,0 +1,1789 @@
+Czas ładowania (Load Time): 1235 ms
+FPS: 62.5
+GPU Frame Time: 13.5168 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.263872 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.435903999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.155327999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.327359999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.364224 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.349888 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.120512 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.172735999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.452288 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.374464 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.277184 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.145088 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.581311999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.392895999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.581311999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.366271999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.410304 ms
+CPU Frame Time: 2 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.494271999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.428735999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.472767999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.338624 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.179903999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.305855999999999 ms
+CPU Frame Time: 2 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.415424 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.444096 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.257728 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 62.5
+GPU Frame Time: 13.38368 ms
+CPU Frame Time: 2 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.545472 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.490176 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.456384 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.324288 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.297664 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.577216 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.645824 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.452288 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 66.66666666666667
+GPU Frame Time: 13.334527999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 15 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.315071999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.437952 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.507584 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.398016 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.30688 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.423615999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.702143999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.371392 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 66.66666666666667
+GPU Frame Time: 13.35296 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 15 ms
+
+FPS: 62.5
+GPU Frame Time: 13.35808 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.542399999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.448191999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.611008 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.382655999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.321216 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 62.5
+GPU Frame Time: 13.369344 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.432832 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.551616 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.421567999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.251584 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 66.66666666666667
+GPU Frame Time: 13.501439999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 15 ms
+
+FPS: 62.5
+GPU Frame Time: 13.631488 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.421567999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.282304 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 62.5
+GPU Frame Time: 13.246464 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.43488 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.481983999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 62.5
+GPU Frame Time: 13.408256 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.261823999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.239296 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.348863999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.611008 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.339647999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.365248 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.4912 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.768704 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.539328 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.40416 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.394943999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.570048 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.63968 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.461504 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.372416 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.297664 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.634559999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.694975999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.412352 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.159424 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.364224 ms
+CPU Frame Time: 2 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 62.5
+GPU Frame Time: 13.356031999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.576191999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.553664 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.282304 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 62.5
+GPU Frame Time: 13.333504 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.459456 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.550592 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.541376 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.43488 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.235199999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.580288 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.500416 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.65504 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.394943999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.316096 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.456384 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 62.5
+GPU Frame Time: 13.430784 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.4912 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.385727999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.431808 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.162495999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.763584 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.57312 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.425664 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.232128 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.387775999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.647872 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.47584 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 62.5
+GPU Frame Time: 13.261823999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.315071999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.553664 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.6192 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.584384 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.270016 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.283328 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.589504 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.535231999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.466624 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.335552 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.410304 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.261823999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.450239999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.522943999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.433855999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.418496 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.6448 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.520895999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.473792 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.420544 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.391872 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.417472 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.529088 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.518848 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 66.66666666666667
+GPU Frame Time: 13.452288 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 15 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.428735999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.52704 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.510655999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.647872 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.284352 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.270016 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.43488 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.48096 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.487103999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.387775999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.406208 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.493248 ms
+CPU Frame Time: 2 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.577216 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.523968 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.517824 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.400063999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.543424 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.538304 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.569023999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.428735999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.370368 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.34272 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.631488 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.605888 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.35808 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.380607999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.412352 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.500416 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.528063999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.451264 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.37856 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.451264 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.481983999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.600767999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.403136 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.3888 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.565952 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.641727999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.720576 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.526016 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 66.66666666666667
+GPU Frame Time: 13.339647999999999 ms
+CPU Frame Time: 2 ms
+Draw Calls: 94
+Total Frame Time: 15 ms
+
+FPS: 62.5
+GPU Frame Time: 13.447168 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.384704 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.517824 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.671424 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.322239999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.335552 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.536256 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 62.5
+GPU Frame Time: 13.468672 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.551616 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.377536 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.283328 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.681664 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.780992 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.501439999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.403136 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.407231999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.416447999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.534208 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.450239999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.403136 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.664256 ms
+CPU Frame Time: 2 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.554687999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.671424 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.531136 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.392895999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.42464 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.651968 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.570048 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 66.66666666666667
+GPU Frame Time: 13.612032 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 15 ms
+
+FPS: 62.5
+GPU Frame Time: 13.382655999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.55776 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.636607999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.56288 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.501439999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.361151999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.503487999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.570048 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.600767999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.638656 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.427712 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.53216 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.57824 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.637632 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.497344 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.351936 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.654015999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.584384 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 52.63157894736842
+GPU Frame Time: 13.607935999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 19 ms
+
+FPS: 62.5
+GPU Frame Time: 13.523968 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.376512 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.367296 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.479935999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.328384 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.403136 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.365248 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.267968 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.624319999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.473792 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.505536 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 62.5
+GPU Frame Time: 13.314048 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.531136 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.587456 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.57312 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.331456 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.361151999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.497344 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.493248 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.657088 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.418496 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.351936 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.425664 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.499391999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.572096 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.318144 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.319168 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.582336 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.602815999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 62.5
+GPU Frame Time: 13.569023999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.381632 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.457408 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.57824 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.55264 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.657088 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.413376 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.48608 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.471744 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.457408 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.590527999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.286399999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.407231999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.566975999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.617151999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.547519999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.290496 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+
+FPS: 71.42857142857143
+GPU Frame Time: 13.289472 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 14 ms
+
+FPS: 66.66666666666667
+GPU Frame Time: 13.338624 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 15 ms
+
+FPS: 62.5
+GPU Frame Time: 13.541376 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.427712 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.367296 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.417472 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.575168 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 62.5
+GPU Frame Time: 13.530111999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.548544 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.292544 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.340672 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.504512 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.538304 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.363199999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.295615999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.539328 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.572096 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.463552 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.537279999999999 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.420544 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 13.444096 ms
+CPU Frame Time: 1 ms
+Draw Calls: 94
+Total Frame Time: 17 ms
+
+FPS: 62.5
+GPU Frame Time: 13.672448 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 16 ms
+
+FPS: 55.55555555555556
+GPU Frame Time: 13.561855999999999 ms
+CPU Frame Time: 0 ms
+Draw Calls: 94
+Total Frame Time: 18 ms
+

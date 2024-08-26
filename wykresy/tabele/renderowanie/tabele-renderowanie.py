@@ -8,6 +8,7 @@ def parse_results(file_path):
         "CPU Frame Time": [],
         "Draw Calls": [],
         "Total Frame Time": [],
+        "Model Count": [],
     }
     
     with open(file_path, 'r') as file:
@@ -24,6 +25,8 @@ def parse_results(file_path):
                     data["Draw Calls"].append(int(line.split(": ")[1].strip()))
                 elif "Total Frame Time" in line:
                     data["Total Frame Time"].append(float(line.split(": ")[1].strip().replace('ms', '').strip()))
+                elif "Model Count" in line:
+                    data["Model Count"].append(int(line.split(": ")[1].strip()))
             except Exception as e:
                 print(f"Błąd przetwarzania linii: {line}")
                 print(f"Szczegóły błędu: {e}")
@@ -31,37 +34,25 @@ def parse_results(file_path):
     return pd.DataFrame(data)
 
 def process_files(files):
-    tables = {
-        "FPS": pd.DataFrame(),
-        "GPU Frame Time": pd.DataFrame(),
-        "CPU Frame Time": pd.DataFrame(),
-        "Draw Calls": pd.DataFrame(),
-        "Total Frame Time": pd.DataFrame(),
-    }
-
     for file in files:
-        file_id = os.path.basename(file).split('-')[2]  # Wydobywa liczbę z nazwy pliku np. 4096
+        seed_id = os.path.basename(file).split('-')[2]  # Wydobywa ID seeda z nazwy pliku np. 10
         df = parse_results(file)
         
-        # Dodanie kolumn do odpowiednich tabel
-        for metric in tables.keys():
-            tables[metric][file_id] = df[metric]
-    
-    return tables
+        # Sortowanie danych według liczby modeli
+        df = df.sort_values(by="Model Count", ascending=True)
+        
+        # Zapisz dane do pliku CSV dla tego seeda
+        new_file_name = f'seed_{seed_id}_performance_summary.csv'
+        df.to_csv(new_file_name, index=False)
+        print(f"Dane dla seeda {seed_id} zapisane do pliku: {new_file_name}")
 
 # Przykładowe pliki
 files = [
-    'pomiary/trawa-liczba-4096-performance-results.txt',
-    'pomiary/trawa-liczba-8192-performance-results.txt',
-    'pomiary/trawa-liczba-16384-performance-results.txt',
-    'pomiary/trawa-liczba-32768-performance-results.txt',
-    'pomiary/trawa-liczba-65536-performance-results.txt'
+    'pomiary/rendering-seed-10-performance-results.txt',
+    'pomiary/rendering-seed-169-performance-results.txt',
+    'pomiary/rendering-seed-4444-performance-results.txt',
+    'pomiary/rendering-seed-77777-performance-results.txt',
+    'pomiary/rendering-seed-123456-performance-results.txt'
 ]
 
-tables = process_files(files)
-
-# Zapisz każdą tabelę do osobnego pliku CSV
-for metric, table in tables.items():
-    table.to_csv(f'{metric}_summary.csv', index=False)
-
-print("Tabele dla każdej metryki zostały wygenerowane i zapisane do plików CSV.")
+process_files(files)
