@@ -30,6 +30,8 @@ dracoLoader.setDecoderPath('/draco/')
 const gltfLoader = new GLTFLoader()
 gltfLoader.setDRACOLoader(dracoLoader)
 
+
+
 /**
  * Sizes
  */
@@ -102,7 +104,7 @@ model.geometry = loadedModel.scene.children[0].geometry
 model.geometry.scale(2, 2, 2)
 model.count = model.geometry.attributes.position.count // wylicza liczbe czasteczek
 
-console.log(model.geometry);
+// console.log(model.geometry);
 
 
 /**
@@ -112,7 +114,7 @@ console.log(model.geometry);
 const gpgpu = {}
 gpgpu.size = Math.ceil(Math.sqrt(model.count)) // rozmiar fbo tekstury
 gpgpu.computation = new GPUComputationRenderer(gpgpu.size, gpgpu.size, renderer)
-console.log(model.count * 5);
+console.log(model.count);
 
 
 // particels
@@ -212,13 +214,107 @@ function addModelInstance(position, rotation, scale) {
 }
 
 // Add multiple instances with different transformations
-// addModelInstance(new THREE.Vector3(0, 0, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(0, -1.5, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(0, 1.5, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(0, 3, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(0, -3, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(0, 2, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(0, -2, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
 addModelInstance(new THREE.Vector3(-30, 0, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
 addModelInstance(new THREE.Vector3(30, 0, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
 addModelInstance(new THREE.Vector3(0, 0, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
 addModelInstance(new THREE.Vector3(-30, 0, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
 addModelInstance(new THREE.Vector3(30, 0, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
 addModelInstance(new THREE.Vector3(0, 0, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, -3, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, -3, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, -3, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, -3, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, -3, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, -3, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, -1.5, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, -1.5, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, -1.5, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, -1.5, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, -1.5, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, -1.5, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 1.5, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 1.5, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 1.5, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 1.5, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 1.5, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 1.5, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 3, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 3, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 3, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 3, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 3, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 3, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 2, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 2, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 2, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 2, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 2, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 2, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, -2, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, -2, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, -2, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, -2, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, -2, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, -2, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+
+addModelInstance(new THREE.Vector3(0, -1.75, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(0, 1.75, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(0, 3.25, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(0, -3.25, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(0, 2.25, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(0, -2.25, 0), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Original
+addModelInstance(new THREE.Vector3(-30, 0.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 0.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 0.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 0.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 0.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 0.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, -3.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, -3.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, -3.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, -3.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, -3.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, -3.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, -1.75, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, -1.75, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, -1.75, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, -1.75, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, -1.75, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, -1.75, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 1.75, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 1.75, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 1.75, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 1.75, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 1.75, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 1.75, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 3.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 3.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 3.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 3.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 3.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 3.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 2.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 2.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 2.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, 2.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, 2.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, 2.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, -2.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, -2.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, -2.25, -70), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(-30, -2.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(30, -2.25, -35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+addModelInstance(new THREE.Vector3(0, -2.25,-35), new THREE.Euler(0, 0, 0), new THREE.Vector3(1, 1, 1));  // Scaled up and rotated
+
+
+
+
 
 
 // console.log(gpgpu.size);
@@ -262,7 +358,6 @@ const animate = () =>
     const frameTime = now - lastFrameTime
     lastFrameTime = now
 
-    const cpuStartTime = performance.now();
     
     gpgpu.particleVariable.material.uniforms.uTime.value = elapsedTime
     gpgpu.particleVariable.material.uniforms.uDeltaTime.value = deltaTime

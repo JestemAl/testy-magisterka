@@ -1,1 +1,19 @@
-Czas ładowania (Load Time): 619 ms
+Czas ładowania (Load Time): 213 ms
+FPS: 62.5
+GPU Frame Time: 5.1456 ms
+CPU Frame Time: 2 ms
+Draw Calls: 13
+Total Frame Time: 16 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 4.877312 ms
+CPU Frame Time: 0 ms
+Draw Calls: 13
+Total Frame Time: 17 ms
+
+FPS: 58.8235294117647
+GPU Frame Time: 0.567296 ms
+CPU Frame Time: 0 ms
+Draw Calls: 13
+Total Frame Time: 17 ms
+

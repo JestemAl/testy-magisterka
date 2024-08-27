@@ -26,11 +26,11 @@ def process_aggregated_files(files):
 
 # Pliki wygenerowane przez poprzedni program
 files = [
-    'trawa/wyniki/FPS_summary.csv',
-    'trawa/wyniki/GPU Frame Time_summary.csv',
-    'trawa/wyniki/CPU Frame Time_summary.csv',
-    'trawa/wyniki/Draw Calls_summary.csv',
-    'trawa/wyniki/Total Frame Time_summary.csv'
+    'wyniki/FPS_summary.csv',
+    'wyniki/GPU Frame Time_summary.csv',
+    'wyniki/CPU Frame Time_summary.csv',
+    'wyniki/Draw Calls_summary.csv',
+    'wyniki/Total Frame Time_summary.csv'
 ]
 
 process_aggregated_files(files)

@@ -9,7 +9,7 @@ async function runPerformanceTest(url, testName) {
     });
     const page = await browser.newPage();
 
-    await page.setViewport({ width: 1920, height: 1080 });
+    await page.setViewport({ width: 1920, height: 900 });
 
     const startLoadTime = Date.now();
     await page.goto(url);
@@ -24,7 +24,7 @@ async function runPerformanceTest(url, testName) {
     const resultPath = path.join(resultsDir, `${testName}-performance-results.txt`);
     fs.writeFileSync(resultPath, `Czas ładowania (Load Time): ${loadTime} ms\n`);
 
-    const duration = 0.5 * 60 * 1000; // 5 minut
+    const duration = 5 * 60 * 1000; // 5 minut
     const interval = 1000; // 1 sekunda
     const warmUpTime = 10000; // 10 sekund
 
@@ -82,7 +82,7 @@ async function main() {
     // await page.goto(url);
     // const seedValue = await page.evaluate(() => window.seedNumber);
 
-    const testName = `czasteczki-seed`;
+    const testName = `czasteczki-x96`;
 
     console.log(`Running ${testName} performance test...`);
     await runPerformanceTest(url, testName);
